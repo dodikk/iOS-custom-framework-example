@@ -1,0 +1,535 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		536D5BD8149640DA00915522 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 536D5BD7149640DA00915522 /* Foundation.framework */; };
+		536D5BDE149640DB00915522 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 536D5BDC149640DB00915522 /* InfoPlist.strings */; };
+		536D5BF1149642C700915522 /* CMCalculatorViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 536D5BEE149642C700915522 /* CMCalculatorViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		536D5BF2149642C700915522 /* CMCalculatorViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 536D5BEF149642C700915522 /* CMCalculatorViewController.mm */; };
+		536D5BF5149644CF00915522 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 536D5BF4149644CF00915522 /* UIKit.framework */; };
+		536D5C01149648D300915522 /* CalculatorUIMock.h in Headers */ = {isa = PBXBuildFile; fileRef = 536D5C00149648D300915522 /* CalculatorUIMock.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		536D5C0414964D5200915522 /* CMResourceManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 536D5C0214964D5200915522 /* CMResourceManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		536D5C0514964D5200915522 /* CMResourceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 536D5C0314964D5200915522 /* CMResourceManager.m */; };
+		53EA2DFE1498B6F90064F7F1 /* UtilsMock.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 536D5BFE1496489D00915522 /* UtilsMock.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		53EA2E121498CEF20064F7F1 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53EA2E111498CEF20064F7F1 /* Cocoa.framework */; };
+		53EA2E1C1498CEF20064F7F1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 53EA2E1A1498CEF20064F7F1 /* InfoPlist.strings */; };
+		53EA2E211498CF090064F7F1 /* CMCalculatorViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 536D5BF0149642C700915522 /* CMCalculatorViewController.xib */; };
+		53EA2E281498D2180064F7F1 /* CMCalculatorViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 536D5BF0149642C700915522 /* CMCalculatorViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		536D5BFD1496489D00915522 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 536D5BF61496489D00915522 /* UtilsMock.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 536D5BA614963AFD00915522;
+			remoteInfo = UtilsMock;
+		};
+		536D5C4D1496534800915522 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 536D5BF61496489D00915522 /* UtilsMock.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 536D5BA514963AEC00915522;
+			remoteInfo = UtilsMock;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		536D5BD4149640DA00915522 /* CalculatorUIMock.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework.static; includeInIndex = 0; path = CalculatorUIMock.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		536D5BD7149640DA00915522 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		536D5BDB149640DB00915522 /* CalculatorUIMock-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CalculatorUIMock-Info.plist"; sourceTree = "<group>"; };
+		536D5BDD149640DB00915522 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		536D5BDF149640DB00915522 /* CalculatorUIMock-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CalculatorUIMock-Prefix.pch"; sourceTree = "<group>"; };
+		536D5BEE149642C700915522 /* CMCalculatorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CMCalculatorViewController.h; path = CalculatorUIMock/Calculator/CMCalculatorViewController.h; sourceTree = SOURCE_ROOT; };
+		536D5BEF149642C700915522 /* CMCalculatorViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = CMCalculatorViewController.mm; path = CalculatorUIMock/Calculator/CMCalculatorViewController.mm; sourceTree = SOURCE_ROOT; };
+		536D5BF0149642C700915522 /* CMCalculatorViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CMCalculatorViewController.xib; path = CalculatorUIMock/Calculator/CMCalculatorViewController.xib; sourceTree = SOURCE_ROOT; };
+		536D5BF4149644CF00915522 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		536D5BF61496489D00915522 /* UtilsMock.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = UtilsMock.xcodeproj; path = ../UtilsMock/UtilsMock.xcodeproj; sourceTree = "<group>"; };
+		536D5C00149648D300915522 /* CalculatorUIMock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalculatorUIMock.h; sourceTree = "<group>"; };
+		536D5C0214964D5200915522 /* CMResourceManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMResourceManager.h; sourceTree = "<group>"; };
+		536D5C0314964D5200915522 /* CMResourceManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMResourceManager.m; sourceTree = "<group>"; };
+		53EA2E101498CEF20064F7F1 /* CalculatorUIMockResources.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalculatorUIMockResources.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		53EA2E111498CEF20064F7F1 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
+		53EA2E141498CEF20064F7F1 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		53EA2E151498CEF20064F7F1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		53EA2E161498CEF20064F7F1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		53EA2E191498CEF20064F7F1 /* CalculatorUIMockResources-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CalculatorUIMockResources-Info.plist"; sourceTree = "<group>"; };
+		53EA2E1B1498CEF20064F7F1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		53EA2E1D1498CEF20064F7F1 /* CalculatorUIMockResources-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CalculatorUIMockResources-Prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		536D5BCF149640DA00915522 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53EA2DFE1498B6F90064F7F1 /* UtilsMock.framework in Frameworks */,
+				536D5BF5149644CF00915522 /* UIKit.framework in Frameworks */,
+				536D5BD8149640DA00915522 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53EA2E0D1498CEF20064F7F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53EA2E121498CEF20064F7F1 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		536D5BC6149640DA00915522 = {
+			isa = PBXGroup;
+			children = (
+				536D5BD9149640DA00915522 /* CalculatorUIMock */,
+				53EA2E171498CEF20064F7F1 /* CalculatorUIMockResources */,
+				536D5BD6149640DA00915522 /* Frameworks */,
+				536D5BD5149640DA00915522 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		536D5BD5149640DA00915522 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				536D5BD4149640DA00915522 /* CalculatorUIMock.framework */,
+				53EA2E101498CEF20064F7F1 /* CalculatorUIMockResources.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		536D5BD6149640DA00915522 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				536D5BF61496489D00915522 /* UtilsMock.xcodeproj */,
+				536D5BF4149644CF00915522 /* UIKit.framework */,
+				536D5BD7149640DA00915522 /* Foundation.framework */,
+				53EA2E111498CEF20064F7F1 /* Cocoa.framework */,
+				53EA2E131498CEF20064F7F1 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		536D5BD9149640DA00915522 /* CalculatorUIMock */ = {
+			isa = PBXGroup;
+			children = (
+				536D5BE61496410D00915522 /* src */,
+				536D5BDA149640DB00915522 /* Supporting Files */,
+				536D5C00149648D300915522 /* CalculatorUIMock.h */,
+			);
+			path = CalculatorUIMock;
+			sourceTree = "<group>";
+		};
+		536D5BDA149640DB00915522 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				536D5BDB149640DB00915522 /* CalculatorUIMock-Info.plist */,
+				536D5BDC149640DB00915522 /* InfoPlist.strings */,
+				536D5BDF149640DB00915522 /* CalculatorUIMock-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		536D5BE61496410D00915522 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				536D5BE71496413900915522 /* CalculatorUI */,
+				536D5C0214964D5200915522 /* CMResourceManager.h */,
+				536D5C0314964D5200915522 /* CMResourceManager.m */,
+			);
+			name = src;
+			sourceTree = "<group>";
+		};
+		536D5BE71496413900915522 /* CalculatorUI */ = {
+			isa = PBXGroup;
+			children = (
+				536D5BEE149642C700915522 /* CMCalculatorViewController.h */,
+				536D5BEF149642C700915522 /* CMCalculatorViewController.mm */,
+				536D5BF0149642C700915522 /* CMCalculatorViewController.xib */,
+			);
+			path = CalculatorUI;
+			sourceTree = "<group>";
+		};
+		536D5BF71496489D00915522 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				536D5BFE1496489D00915522 /* UtilsMock.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		53EA2E131498CEF20064F7F1 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				53EA2E141498CEF20064F7F1 /* AppKit.framework */,
+				53EA2E151498CEF20064F7F1 /* CoreData.framework */,
+				53EA2E161498CEF20064F7F1 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		53EA2E171498CEF20064F7F1 /* CalculatorUIMockResources */ = {
+			isa = PBXGroup;
+			children = (
+				53EA2E181498CEF20064F7F1 /* Supporting Files */,
+			);
+			path = CalculatorUIMockResources;
+			sourceTree = "<group>";
+		};
+		53EA2E181498CEF20064F7F1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				53EA2E191498CEF20064F7F1 /* CalculatorUIMockResources-Info.plist */,
+				53EA2E1A1498CEF20064F7F1 /* InfoPlist.strings */,
+				53EA2E1D1498CEF20064F7F1 /* CalculatorUIMockResources-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		536D5BD0149640DA00915522 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				536D5BF1149642C700915522 /* CMCalculatorViewController.h in Headers */,
+				536D5C01149648D300915522 /* CalculatorUIMock.h in Headers */,
+				536D5C0414964D5200915522 /* CMResourceManager.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		536D5BD3149640DA00915522 /* CalculatorUIMock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 536D5BE2149640DB00915522 /* Build configuration list for PBXNativeTarget "CalculatorUIMock" */;
+			buildPhases = (
+				536D5BCD149640DA00915522 /* ShellScript */,
+				536D5BCE149640DA00915522 /* Sources */,
+				536D5BCF149640DA00915522 /* Frameworks */,
+				536D5BD0149640DA00915522 /* Headers */,
+				536D5BD1149640DA00915522 /* Resources */,
+				536D5BD2149640DA00915522 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				536D5C4E1496534800915522 /* PBXTargetDependency */,
+			);
+			name = CalculatorUIMock;
+			productName = CalculatorUIMock;
+			productReference = 536D5BD4149640DA00915522 /* CalculatorUIMock.framework */;
+			productType = "com.apple.product-type.framework.static";
+		};
+		53EA2E0F1498CEF20064F7F1 /* CalculatorUIMockResources */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53EA2E1E1498CEF20064F7F1 /* Build configuration list for PBXNativeTarget "CalculatorUIMockResources" */;
+			buildPhases = (
+				53EA2E0C1498CEF20064F7F1 /* Sources */,
+				53EA2E0D1498CEF20064F7F1 /* Frameworks */,
+				53EA2E0E1498CEF20064F7F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CalculatorUIMockResources;
+			productName = CalculatorUIMockResources;
+			productReference = 53EA2E101498CEF20064F7F1 /* CalculatorUIMockResources.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		536D5BC8149640DA00915522 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "EPAM systems";
+			};
+			buildConfigurationList = 536D5BCB149640DA00915522 /* Build configuration list for PBXProject "CalculatorUIMock" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 536D5BC6149640DA00915522;
+			productRefGroup = 536D5BD5149640DA00915522 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 536D5BF71496489D00915522 /* Products */;
+					ProjectRef = 536D5BF61496489D00915522 /* UtilsMock.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				536D5BD3149640DA00915522 /* CalculatorUIMock */,
+				53EA2E0F1498CEF20064F7F1 /* CalculatorUIMockResources */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		536D5BFE1496489D00915522 /* UtilsMock.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework.static;
+			path = UtilsMock.framework;
+			remoteRef = 536D5BFD1496489D00915522 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		536D5BD1149640DA00915522 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53EA2E281498D2180064F7F1 /* CMCalculatorViewController.xib in Resources */,
+				536D5BDE149640DB00915522 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53EA2E0E1498CEF20064F7F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53EA2E211498CF090064F7F1 /* CMCalculatorViewController.xib in Resources */,
+				53EA2E1C1498CEF20064F7F1 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		536D5BCD149640DA00915522 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nset +u\nif [[ $UFW_MASTER_SCRIPT_RUNNING ]]\nthen\n    # Nothing for the slave script to do\n    exit 0\nfi\nset -u\n\nif [[ \"$SDK_NAME\" =~ ([A-Za-z]+) ]]\nthen\n    UFW_SDK_PLATFORM=${BASH_REMATCH[1]}\nelse\n    echo \"Could not find platform name from SDK_NAME: $SDK_NAME\"\n    exit 1\nfi\n\nif [[ \"$SDK_NAME\" =~ ([0-9]+.*$) ]]\nthen\n\tUFW_SDK_VERSION=${BASH_REMATCH[1]}\nelse\n    echo \"Could not find sdk version  from SDK_NAME: $SDK_NAME\"\n    exit 1\nfi\n\nif [[ \"$UFW_SDK_PLATFORM\" = \"iphoneos\" ]]\nthen\n    UFW_OTHER_PLATFORM=iphonesimulator\nelse\n    UFW_OTHER_PLATFORM=iphoneos\nfi\n\nif [[ \"$BUILT_PRODUCTS_DIR\" =~ (.*)$UFW_SDK_PLATFORM$ ]]\nthen\n    UFW_OTHER_BUILT_PRODUCTS_DIR=\"${BASH_REMATCH[1]}${UFW_OTHER_PLATFORM}\"\nelse\n    echo \"Could not find $UFW_SDK_PLATFORM in $BUILT_PRODUCTS_DIR\"\n    exit 1\nfi\n\nONLY_ACTIVE_PLATFORM=${ONLY_ACTIVE_PLATFORM:-$ONLY_ACTIVE_ARCH}\n\n# Short-circuit if all binaries are up to date\n\nif [[ -f \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" ]] && \\\n   [[ -f \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/${EXECUTABLE_PATH}\" ]] && \\\n   [[ ! \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" -nt \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/${EXECUTABLE_PATH}\" ]] && \\\n  ([[ \"${ONLY_ACTIVE_PLATFORM}\" == \"YES\" ]] || \\\n    ([[ -f \"${UFW_OTHER_BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" ]] && \\\n     [[ -f \"${UFW_OTHER_BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/${EXECUTABLE_PATH}\" ]] && \\\n     [[ ! \"${UFW_OTHER_BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" -nt \"${UFW_OTHER_BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/${EXECUTABLE_PATH}\" ]]\n    )\n  )\nthen\n    exit 0\nfi\n\n\n# Clean other platform if needed\n\nif [[ ! -f \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" ]] && [[ \"${ONLY_ACTIVE_PLATFORM}\" != \"YES\" ]]\nthen\n\techo \"Platform \\\"$UFW_SDK_PLATFORM\\\" was cleaned recently. Cleaning \\\"$UFW_OTHER_PLATFORM\\\" as well\"\n\techo xcodebuild -project \"${PROJECT_FILE_PATH}\" -target \"${TARGET_NAME}\" -configuration \"${CONFIGURATION}\" -sdk ${UFW_OTHER_PLATFORM}${UFW_SDK_VERSION} BUILD_DIR=\"${BUILD_DIR}\" CONFIGURATION_TEMP_DIR=\"${PROJECT_TEMP_DIR}/${CONFIGURATION}-${UFW_OTHER_PLATFORM}\" clean\n\txcodebuild -project \"${PROJECT_FILE_PATH}\" -target \"${TARGET_NAME}\" -configuration \"${CONFIGURATION}\" -sdk ${UFW_OTHER_PLATFORM}${UFW_SDK_VERSION} BUILD_DIR=\"${BUILD_DIR}\" CONFIGURATION_TEMP_DIR=\"${PROJECT_TEMP_DIR}/${CONFIGURATION}-${UFW_OTHER_PLATFORM}\" clean\nfi\n\n\n# Make sure we are building from fresh binaries\n\nrm -rf \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\"\nrm -rf \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework\"\n\nif [[ \"${ONLY_ACTIVE_PLATFORM}\" != \"YES\" ]]\nthen\n    rm -rf \"${UFW_OTHER_BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\"\n    rm -rf \"${UFW_OTHER_BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework\"\nfi\n";
+		};
+		536D5BD2149640DA00915522 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nset +u\nif [[ $UFW_MASTER_SCRIPT_RUNNING ]]\nthen\n    # Nothing for the slave script to do\n    exit 0\nfi\nset -u\nexport UFW_MASTER_SCRIPT_RUNNING=1\n\n\n# Functions\n\n## List files in the specified directory, storing to the specified array.\n#\n# @param $1 The path to list\n# @param $2 The name of the array to fill\n#\n##\nlist_files ()\n{\n    filelist=$(ls \"$1\")\n    while read line\n    do\n        eval \"$2[\\${#$2[*]}]=\\\"\\$line\\\"\"\n    done <<< \"$filelist\"\n}\n\n\n# Sanity check\n\nif [[ ! -f \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" ]]\nthen\n    echo \"Framework target \\\"${TARGET_NAME}\\\" had no source files to build from. Make sure your source files have the correct target membership\"\n    exit 1\nfi\n\n\n# Gather information\n\nif [[ \"$SDK_NAME\" =~ ([A-Za-z]+) ]]\nthen\n    UFW_SDK_PLATFORM=${BASH_REMATCH[1]}\nelse\n    echo \"Could not find platform name from SDK_NAME: $SDK_NAME\"\n    exit 1\nfi\n\nif [[ \"$SDK_NAME\" =~ ([0-9]+.*$) ]]\nthen\n    UFW_SDK_VERSION=${BASH_REMATCH[1]}\nelse\n    echo \"Could not find sdk version from SDK_NAME: $SDK_NAME\"\n    exit 1\nfi\n\nif [[ \"$UFW_SDK_PLATFORM\" = \"iphoneos\" ]]\nthen\n    UFW_OTHER_PLATFORM=iphonesimulator\nelse\n    UFW_OTHER_PLATFORM=iphoneos\nfi\n\nif [[ \"$BUILT_PRODUCTS_DIR\" =~ (.*)$UFW_SDK_PLATFORM$ ]]\nthen\n    UFW_OTHER_BUILT_PRODUCTS_DIR=\"${BASH_REMATCH[1]}${UFW_OTHER_PLATFORM}\"\nelse\n    echo \"Could not find $UFW_SDK_PLATFORM in $BUILT_PRODUCTS_DIR\"\n    exit 1\nfi\n\nONLY_ACTIVE_PLATFORM=${ONLY_ACTIVE_PLATFORM:-$ONLY_ACTIVE_ARCH}\n\n# Short-circuit if all binaries are up to date.\n# We already checked the other platform in the prerun script.\n\nif [[ -f \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" ]] && [[ -f \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/${EXECUTABLE_PATH}\" ]] && [[ ! \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" -nt \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/${EXECUTABLE_PATH}\" ]]\nthen\n    exit 0\nfi\n\nif [ \"${ONLY_ACTIVE_PLATFORM}\" == \"YES\" ]\nthen\n    echo \"ONLY_ACTIVE_PLATFORM=${ONLY_ACTIVE_PLATFORM}: Skipping other platform build\"\nelse\n    # Make sure the other platform gets built\n    \n    echo \"Build other platform\"\n    \n    echo xcodebuild -project \"${PROJECT_FILE_PATH}\" -target \"${TARGET_NAME}\" -configuration \"${CONFIGURATION}\" -sdk ${UFW_OTHER_PLATFORM}${UFW_SDK_VERSION} BUILD_DIR=\"${BUILD_DIR}\" CONFIGURATION_TEMP_DIR=\"${PROJECT_TEMP_DIR}/${CONFIGURATION}-${UFW_OTHER_PLATFORM}\" $ACTION\n    xcodebuild -project \"${PROJECT_FILE_PATH}\" -target \"${TARGET_NAME}\" -configuration \"${CONFIGURATION}\" -sdk ${UFW_OTHER_PLATFORM}${UFW_SDK_VERSION} BUILD_DIR=\"${BUILD_DIR}\" CONFIGURATION_TEMP_DIR=\"${PROJECT_TEMP_DIR}/${CONFIGURATION}-${UFW_OTHER_PLATFORM}\" $ACTION\n    \n    \n    # Build the fat static library binary\n    \n    echo \"Create universal static library\"\n    \n    echo \"$PLATFORM_DEVELOPER_BIN_DIR/libtool\" -static \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" \"${UFW_OTHER_BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" -o \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}.temp\"\n    \"$PLATFORM_DEVELOPER_BIN_DIR/libtool\" -static \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" \"${UFW_OTHER_BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" -o \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}.temp\"\n    \n    echo mv \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}.temp\" \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\"\n    mv \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}.temp\" \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\"\nfi\n\n# Build embedded framework structure\n\necho \"Build Embedded Framework\"\n\necho rm -rf \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework\"\nrm -rf \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework\"\necho mkdir -p \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/Resources\"\nmkdir -p \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/Resources\"\necho cp -a \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/\"\ncp -a \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/\"\n\ndeclare -a UFW_FILE_LIST\nlist_files \"${BUILT_PRODUCTS_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}\" UFW_FILE_LIST\nfor filename in \"${UFW_FILE_LIST[@]}\"\ndo\n    if [[ \"${filename}\" != \"Info.plist\" ]] && [[ ! \"${filename}\" =~ .*\\.lproj$ ]]\n    then\n        echo ln -sf \"../${WRAPPER_NAME}/Resources/${filename}\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/Resources/${filename}\"\n        ln -sf \"../${WRAPPER_NAME}/Resources/${filename}\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/Resources/${filename}\"\n    fi\ndone\n\n\nif [ \"${ONLY_ACTIVE_PLATFORM}\" != \"YES\" ]\nthen\n    # Replace other platform's framework with a copy of this one (so that both have the same universal binary)\n    \n    echo \"Copy from $UFW_SDK_PLATFORM to $UFW_OTHER_PLATFORM\"\n    \n    echo rm -rf \"${BUILD_DIR}/${CONFIGURATION}-${UFW_OTHER_PLATFORM}\"\n    rm -rf \"${BUILD_DIR}/${CONFIGURATION}-${UFW_OTHER_PLATFORM}\"\n    echo cp -a \"${BUILD_DIR}/${CONFIGURATION}-${UFW_SDK_PLATFORM}\" \"${BUILD_DIR}/${CONFIGURATION}-${UFW_OTHER_PLATFORM}\"\n    cp -a \"${BUILD_DIR}/${CONFIGURATION}-${UFW_SDK_PLATFORM}\" \"${BUILD_DIR}/${CONFIGURATION}-${UFW_OTHER_PLATFORM}\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		536D5BCE149640DA00915522 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				536D5BF2149642C700915522 /* CMCalculatorViewController.mm in Sources */,
+				536D5C0514964D5200915522 /* CMResourceManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53EA2E0C1498CEF20064F7F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		536D5C4E1496534800915522 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UtilsMock;
+			targetProxy = 536D5C4D1496534800915522 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		536D5BDC149640DB00915522 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				536D5BDD149640DB00915522 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		53EA2E1A1498CEF20064F7F1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				53EA2E1B1498CEF20064F7F1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		536D5BE0149640DB00915522 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		536D5BE1149640DB00915522 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		536D5BE3149640DB00915522 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CalculatorUIMock/CalculatorUIMock-Prefix.pch";
+				INFOPLIST_FILE = "CalculatorUIMock/CalculatorUIMock-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Debug;
+		};
+		536D5BE4149640DB00915522 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CalculatorUIMock/CalculatorUIMock-Prefix.pch";
+				INFOPLIST_FILE = "CalculatorUIMock/CalculatorUIMock-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Release;
+		};
+		53EA2E1F1498CEF20064F7F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(DEVELOPER_FRAMEWORKS_DIR)\"",
+				);
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CalculatorUIMockResources/CalculatorUIMockResources-Prefix.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				INFOPLIST_FILE = "CalculatorUIMockResources/CalculatorUIMockResources-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		53EA2E201498CEF20064F7F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(DEVELOPER_FRAMEWORKS_DIR)\"",
+				);
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CalculatorUIMockResources/CalculatorUIMockResources-Prefix.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				INFOPLIST_FILE = "CalculatorUIMockResources/CalculatorUIMockResources-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		536D5BCB149640DA00915522 /* Build configuration list for PBXProject "CalculatorUIMock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				536D5BE0149640DB00915522 /* Debug */,
+				536D5BE1149640DB00915522 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		536D5BE2149640DB00915522 /* Build configuration list for PBXNativeTarget "CalculatorUIMock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				536D5BE3149640DB00915522 /* Debug */,
+				536D5BE4149640DB00915522 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53EA2E1E1498CEF20064F7F1 /* Build configuration list for PBXNativeTarget "CalculatorUIMockResources" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53EA2E1F1498CEF20064F7F1 /* Debug */,
+				53EA2E201498CEF20064F7F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 536D5BC8149640DA00915522 /* Project object */;
+}

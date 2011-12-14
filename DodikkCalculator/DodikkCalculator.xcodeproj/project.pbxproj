@@ -1,0 +1,389 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		536D5C16149651AE00915522 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 536D5C15149651AE00915522 /* UIKit.framework */; };
+		536D5C18149651AE00915522 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 536D5C17149651AE00915522 /* Foundation.framework */; };
+		536D5C1A149651AE00915522 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 536D5C19149651AE00915522 /* CoreGraphics.framework */; };
+		536D5C20149651AE00915522 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 536D5C1E149651AE00915522 /* InfoPlist.strings */; };
+		536D5C22149651AE00915522 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 536D5C21149651AE00915522 /* main.m */; };
+		536D5C26149651AE00915522 /* DCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 536D5C25149651AE00915522 /* DCAppDelegate.m */; };
+		536D5C471496533700915522 /* CalculatorUIMock.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 536D5C3E149651E300915522 /* CalculatorUIMock.framework */; };
+		536D5C481496533700915522 /* UtilsMock.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 536D5C46149651EB00915522 /* UtilsMock.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		53EA2E291498D2280064F7F1 /* CalculatorUIMock.framework in Resources */ = {isa = PBXBuildFile; fileRef = 536D5C3E149651E300915522 /* CalculatorUIMock.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		536D5C3D149651E300915522 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 536D5C32149651E300915522 /* CalculatorUIMock.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 536D5BD4149640DA00915522;
+			remoteInfo = CalculatorUIMock;
+		};
+		536D5C45149651EB00915522 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 536D5C41149651EB00915522 /* UtilsMock.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 536D5BA614963AFD00915522;
+			remoteInfo = UtilsMock;
+		};
+		536D5C491496533F00915522 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 536D5C32149651E300915522 /* CalculatorUIMock.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 536D5BD3149640DA00915522;
+			remoteInfo = CalculatorUIMock;
+		};
+		536D5C4B1496533F00915522 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 536D5C41149651EB00915522 /* UtilsMock.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 536D5BA514963AEC00915522;
+			remoteInfo = UtilsMock;
+		};
+		53EA2E231498CF3F0064F7F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 536D5C32149651E300915522 /* CalculatorUIMock.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 53EA2E101498CEF20064F7F1;
+			remoteInfo = CalculatorUIMockResources;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		536D5C11149651AE00915522 /* DodikkCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DodikkCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		536D5C15149651AE00915522 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		536D5C17149651AE00915522 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		536D5C19149651AE00915522 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		536D5C1D149651AE00915522 /* DodikkCalculator-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DodikkCalculator-Info.plist"; sourceTree = "<group>"; };
+		536D5C1F149651AE00915522 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		536D5C21149651AE00915522 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		536D5C23149651AE00915522 /* DodikkCalculator-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DodikkCalculator-Prefix.pch"; sourceTree = "<group>"; };
+		536D5C24149651AE00915522 /* DCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DCAppDelegate.h; sourceTree = "<group>"; };
+		536D5C25149651AE00915522 /* DCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DCAppDelegate.m; sourceTree = "<group>"; };
+		536D5C32149651E300915522 /* CalculatorUIMock.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CalculatorUIMock.xcodeproj; path = ../CalculatorUIMock/CalculatorUIMock.xcodeproj; sourceTree = "<group>"; };
+		536D5C41149651EB00915522 /* UtilsMock.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = UtilsMock.xcodeproj; path = ../UtilsMock/UtilsMock.xcodeproj; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		536D5C0E149651AE00915522 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				536D5C471496533700915522 /* CalculatorUIMock.framework in Frameworks */,
+				536D5C481496533700915522 /* UtilsMock.framework in Frameworks */,
+				536D5C16149651AE00915522 /* UIKit.framework in Frameworks */,
+				536D5C18149651AE00915522 /* Foundation.framework in Frameworks */,
+				536D5C1A149651AE00915522 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		536D5C06149651AE00915522 = {
+			isa = PBXGroup;
+			children = (
+				536D5C1B149651AE00915522 /* DodikkCalculator */,
+				536D5C14149651AE00915522 /* Frameworks */,
+				536D5C12149651AE00915522 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		536D5C12149651AE00915522 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				536D5C11149651AE00915522 /* DodikkCalculator.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		536D5C14149651AE00915522 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				536D5C32149651E300915522 /* CalculatorUIMock.xcodeproj */,
+				536D5C41149651EB00915522 /* UtilsMock.xcodeproj */,
+				536D5C15149651AE00915522 /* UIKit.framework */,
+				536D5C17149651AE00915522 /* Foundation.framework */,
+				536D5C19149651AE00915522 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		536D5C1B149651AE00915522 /* DodikkCalculator */ = {
+			isa = PBXGroup;
+			children = (
+				536D5C24149651AE00915522 /* DCAppDelegate.h */,
+				536D5C25149651AE00915522 /* DCAppDelegate.m */,
+				536D5C1C149651AE00915522 /* Supporting Files */,
+			);
+			path = DodikkCalculator;
+			sourceTree = "<group>";
+		};
+		536D5C1C149651AE00915522 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				536D5C1D149651AE00915522 /* DodikkCalculator-Info.plist */,
+				536D5C1E149651AE00915522 /* InfoPlist.strings */,
+				536D5C21149651AE00915522 /* main.m */,
+				536D5C23149651AE00915522 /* DodikkCalculator-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		536D5C33149651E300915522 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				536D5C3E149651E300915522 /* CalculatorUIMock.framework */,
+				53EA2E241498CF3F0064F7F1 /* CalculatorUIMockResources.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		536D5C42149651EB00915522 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				536D5C46149651EB00915522 /* UtilsMock.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		536D5C10149651AE00915522 /* DodikkCalculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 536D5C2F149651AE00915522 /* Build configuration list for PBXNativeTarget "DodikkCalculator" */;
+			buildPhases = (
+				536D5C0D149651AE00915522 /* Sources */,
+				536D5C0E149651AE00915522 /* Frameworks */,
+				536D5C0F149651AE00915522 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				536D5C4A1496533F00915522 /* PBXTargetDependency */,
+				536D5C4C1496533F00915522 /* PBXTargetDependency */,
+			);
+			name = DodikkCalculator;
+			productName = DodikkCalculator;
+			productReference = 536D5C11149651AE00915522 /* DodikkCalculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		536D5C08149651AE00915522 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "EPAM systems";
+			};
+			buildConfigurationList = 536D5C0B149651AE00915522 /* Build configuration list for PBXProject "DodikkCalculator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 536D5C06149651AE00915522;
+			productRefGroup = 536D5C12149651AE00915522 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 536D5C33149651E300915522 /* Products */;
+					ProjectRef = 536D5C32149651E300915522 /* CalculatorUIMock.xcodeproj */;
+				},
+				{
+					ProductGroup = 536D5C42149651EB00915522 /* Products */;
+					ProjectRef = 536D5C41149651EB00915522 /* UtilsMock.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				536D5C10149651AE00915522 /* DodikkCalculator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		536D5C3E149651E300915522 /* CalculatorUIMock.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework.static;
+			path = CalculatorUIMock.framework;
+			remoteRef = 536D5C3D149651E300915522 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		536D5C46149651EB00915522 /* UtilsMock.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework.static;
+			path = UtilsMock.framework;
+			remoteRef = 536D5C45149651EB00915522 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		53EA2E241498CF3F0064F7F1 /* CalculatorUIMockResources.bundle */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = CalculatorUIMockResources.bundle;
+			remoteRef = 53EA2E231498CF3F0064F7F1 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		536D5C0F149651AE00915522 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				536D5C20149651AE00915522 /* InfoPlist.strings in Resources */,
+				53EA2E291498D2280064F7F1 /* CalculatorUIMock.framework in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		536D5C0D149651AE00915522 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				536D5C22149651AE00915522 /* main.m in Sources */,
+				536D5C26149651AE00915522 /* DCAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		536D5C4A1496533F00915522 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CalculatorUIMock;
+			targetProxy = 536D5C491496533F00915522 /* PBXContainerItemProxy */;
+		};
+		536D5C4C1496533F00915522 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UtilsMock;
+			targetProxy = 536D5C4B1496533F00915522 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		536D5C1E149651AE00915522 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				536D5C1F149651AE00915522 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		536D5C2D149651AE00915522 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_LDFLAGS = "-all_load";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		536D5C2E149651AE00915522 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				OTHER_LDFLAGS = "-all_load";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		536D5C30149651AE00915522 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../../../Library/Developer/Xcode/DerivedData/DodikkCalculator-gzblniydodpvxqeccdsrjuyoicfd/Build/Products/Debug-iphonesimulator/CalculatorUIMock.embeddedframework\"",
+					"\"$(SRCROOT)/DodikkCalculator\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DodikkCalculator/DodikkCalculator-Prefix.pch";
+				INFOPLIST_FILE = "DodikkCalculator/DodikkCalculator-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		536D5C31149651AE00915522 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../../../Library/Developer/Xcode/DerivedData/DodikkCalculator-gzblniydodpvxqeccdsrjuyoicfd/Build/Products/Debug-iphonesimulator/CalculatorUIMock.embeddedframework\"",
+					"\"$(SRCROOT)/DodikkCalculator\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DodikkCalculator/DodikkCalculator-Prefix.pch";
+				INFOPLIST_FILE = "DodikkCalculator/DodikkCalculator-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		536D5C0B149651AE00915522 /* Build configuration list for PBXProject "DodikkCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				536D5C2D149651AE00915522 /* Debug */,
+				536D5C2E149651AE00915522 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		536D5C2F149651AE00915522 /* Build configuration list for PBXNativeTarget "DodikkCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				536D5C30149651AE00915522 /* Debug */,
+				536D5C31149651AE00915522 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 536D5C08149651AE00915522 /* Project object */;
+}

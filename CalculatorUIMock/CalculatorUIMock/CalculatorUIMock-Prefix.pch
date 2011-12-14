@@ -1,0 +1,7 @@
+
+#ifdef __OBJC__
+   #import "CMResourceManager.h"
+
+   #import <UtilsMock/UtilsMock.h>
+   #import <Foundation/Foundation.h>
+#endif

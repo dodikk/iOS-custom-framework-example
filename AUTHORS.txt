@@ -1,0 +1,7 @@
+1 - Oleksandr Dodatko.
+   mail/jabber : dodikk88.reg@gmail.com
+   skype       : alexander.dodatko.work@skype.com
+=====================================================
+
+This project uses "iOS-Universal-Framework" xCode templates by kstenerud.
+https://github.com/kstenerud/iOS-Universal-Framework

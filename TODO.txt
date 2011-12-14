@@ -1,0 +1,2 @@
+1. Fix framework scripts to preserve physical structure of headers.
+2. Add continuous integration scripts

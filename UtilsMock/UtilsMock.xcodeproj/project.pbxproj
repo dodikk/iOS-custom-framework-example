@@ -134,6 +134,7 @@
 				536D5BA114963AEC00915522 /* Frameworks */,
 				536D5BA214963AEC00915522 /* Headers */,
 				536D5BA314963AEC00915522 /* Resources */,
+				53182A91149A4AD30047B191 /*  Fix framework headers */,
 				536D5BA414963AEC00915522 /* ShellScript */,
 			);
 			buildRules = (
@@ -184,6 +185,20 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		53182A91149A4AD30047B191 /*  Fix framework headers */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = " Fix framework headers";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "INLINED_PYHON_SCRIPT=\"import sys; import os.path; headerPathFromFind = sys.argv[2]; srcRoot = sys.argv[1]; headerPathFromFindWithoutFilename = os.path.dirname( headerPathFromFind ); relatedPathForDirectory = os.path.relpath( headerPathFromFindWithoutFilename, srcRoot ); print( relatedPathForDirectory );\"\n\nHEADERS_ROOT=$SRCROOT/$PRODUCT_NAME\nFRAMEWORK_HEADERS_DIR=\"$BUILT_PRODUCTS_DIR/$WRAPPER_NAME/Headers\"\n\n## only header files expected at this point\nPUBLIC_HEADERS=$( ls -1 \"$FRAMEWORK_HEADERS_DIR\" )\n\ncounter=0\n\n#echo \"============\"\nfor PUBLIC_HEADER in $PUBLIC_HEADERS; do\n\n((counter++))\n\nFIND_RESULT=$( find \"$HEADERS_ROOT\" -name \"$PUBLIC_HEADER\" )\nRELATIVE_PATH=$( python -c \"$INLINED_PYHON_SCRIPT\" \"$HEADERS_ROOT\" \"$FIND_RESULT\" )\n\n#   echo \"${counter}). $PUBLIC_HEADER\"\n#   echo \"   FIND_RESULT   - $FIND_RESULT\"\n#   echo \"   RELATIVE_PATH - $RELATIVE_PATH\"\n\n#   echo mkdir -p \"$FRAMEWORK_HEADERS_DIR/$RELATIVE_PATH\"\n#   echo mv \"$PUBLIC_HEADER\" \"$FRAMEWORK_HEADERS_DIR/$RELATIVE_PATH/$PUBLIC_HEADER\"\n\n#   echo \"---\"\n\nmkdir -p \"$FRAMEWORK_HEADERS_DIR/$RELATIVE_PATH\"\nmv \"$FRAMEWORK_HEADERS_DIR/$PUBLIC_HEADER\" \"$FRAMEWORK_HEADERS_DIR/$RELATIVE_PATH/$PUBLIC_HEADER\"\ndone\n#echo \"============\"";
+		};
 		536D5B9F14963AEC00915522 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -324,6 +339,7 @@
 				536D5BB614963AFD00915522 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

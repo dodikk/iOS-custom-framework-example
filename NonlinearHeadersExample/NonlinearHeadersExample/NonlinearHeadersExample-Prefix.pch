@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'NonlinearHeadersExample' target in the 'NonlinearHeadersExample' project
+//
+
+#ifdef __OBJC__
+   #import <Foundation/Foundation.h>
+#endif
